@@ -101,3 +101,99 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2019-08-19 15:58:37.685
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:25.307
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:25.308
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2624c3f8[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=1001)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:25.311
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:25.356
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.816
+!MESSAGE Boot LS startup time from start to initialized: 2495ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.832
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LgVgQjRsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.832
+!MESSAGE subscribing to classpath changes: sts4.classpath.LgVgQjRs isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.836
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.838
+!MESSAGE subsribers = {sts4.classpath.LgVgQjRs=Send Classpath Notifications(1015)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.839
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.842
+!MESSAGE project JenkinsProject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.843
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.843
+!MESSAGE Preparing classpath changed notification JenkinsProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.843
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LgVgQjRs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.844
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.865
+!MESSAGE classpath=198 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.873
+!MESSAGE buffering callback sts4.classpath.LgVgQjRs JenkinsProject false 198
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.874
+!MESSAGE executing callback sts4.classpath.LgVgQjRs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:00:27.904
+!MESSAGE executing callback sts4.classpath.LgVgQjRs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:06:53.495
+!MESSAGE Preparing classpath changed notification JenkinsProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:06:53.506
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:06:53.518
+!MESSAGE classpath=121 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:06:53.525
+!MESSAGE buffering callback sts4.classpath.LgVgQjRs JenkinsProject false 121
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:06:53.525
+!MESSAGE executing callback sts4.classpath.LgVgQjRs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:06:53.538
+!MESSAGE executing callback sts4.classpath.LgVgQjRs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:07:11.075
+!MESSAGE Preparing classpath changed notification JenkinsProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:07:11.075
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:07:11.084
+!MESSAGE classpath=121 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:07:11.091
+!MESSAGE buffering callback sts4.classpath.LgVgQjRs JenkinsProject false 121
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:07:11.092
+!MESSAGE executing callback sts4.classpath.LgVgQjRs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-19 16:07:11.101
+!MESSAGE executing callback sts4.classpath.LgVgQjRs SUCCESS [done]

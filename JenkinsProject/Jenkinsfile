@@ -1,10 +1,39 @@
 pipeline {
   agent any
   stages {
-      stage('Build') {
-          steps {
-             echo 'This is a minimal pipeline.'
-          }
-      }
+  	  
+  stage ('Build') {
+
+
+
+            steps {
+
+                withMaven(maven : 'maven_3_5_0') {
+
+                    sh 'mvn build'
+
+                }
+
+            }
+
+        }
+
+
+
+        stage ('Testing Stage') {
+
+
+
+            steps {
+
+                withMaven(maven : 'maven_3_5_0') {
+
+                    sh 'mvn test'
+
+                }
+
+            }
+
+        }
   }
 }
